@@ -20,10 +20,6 @@
 			<artifactId>android</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.google.android.maps</groupId>
-			<artifactId>maps</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>com.google.android</groupId>
 			<artifactId>support-v4</artifactId>
 		</dependency>
