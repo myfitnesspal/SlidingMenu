@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.slidingmenu</groupId>
 	<artifactId>parent</artifactId>
-	<version>1.2</version>
+	<version>1.2-mfp-nomaps</version>
 	<packaging>pom</packaging>
 
 	<modules>
@@ -25,11 +25,12 @@
 				<groupId>com.google.android</groupId>
 				<artifactId>android</artifactId>
 				<version>4.1.1.4</version>
-			</dependency>
+    			<scope>provided</scope>
+    		</dependency>
 			<dependency>
 				<groupId>com.google.android</groupId>
 				<artifactId>support-v4</artifactId>
-				<version>r10</version>
+				<version>r7</version>
 			</dependency>
 			<dependency>
 				<groupId>com.actionbarsherlock</groupId>
